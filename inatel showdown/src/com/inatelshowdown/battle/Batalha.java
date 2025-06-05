@@ -1,4 +1,8 @@
 package com.inatelshowdown.battle;
+import com.inatelshowdown.model.Professor;
+import com.inatelshowdown.model.Habilidade;
+
+import java.util.Scanner;
 
 public class Batalha {
         private Professor jogador;
@@ -34,4 +38,3 @@ public class Batalha {
             System.out.println(jogador.estaVivo() ? "\nVocê venceu!" : "\nVocê perdeu!");
         }
     }
-}

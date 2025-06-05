@@ -1,6 +1,6 @@
 package com.inatelshowdown.model;
 
-public class abstract EfeitoStatus  {
+public abstract  class EfeitoStatus {
 
     private int duracao;
 
@@ -10,6 +10,14 @@ public class abstract EfeitoStatus  {
 
     public boolean terminou() {
         return duracao <= 0;
+    }
+
+    protected int getDuracao() {
+        return duracao;
+    }
+
+    protected void setDuracao(int duracao) {
+        this.duracao = duracao;
     }
 
 }
